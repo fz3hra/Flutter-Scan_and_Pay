@@ -125,11 +125,15 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   child: GestureDetector(
                     onTap: () =>
                         context.appPushNamed(Routes.registrationScreen),
-                    child: const Text(
-                      "Continue",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w700,
+                    child: Container(
+                      width: 200,
+                      height: 40,
+                      child: const Text(
+                        "Continue",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w700,
+                        ),
                       ),
                     ),
                   ),
