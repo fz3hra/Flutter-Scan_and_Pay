@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:scan_and_pay/screens/homepage_screen/homescreen.dart';
-import 'package:scan_and_pay/screens/login_screen/login_screen.dart';
-import 'package:scan_and_pay/screens/registration_screen/registration_screen.dart';
-import 'package:scan_and_pay/screens/splash_screen/splash_screen.dart';
+import 'package:scan_and_pay/config/routes.dart';
+import 'package:scan_and_pay/screens/screen_exports.dart';
 import 'package:scan_and_pay/utils/global_keys/global_keys.dart';
-
-import 'config/routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       navigatorKey: GlobalKeys.mainNav,
       title: 'Flutter Scan And Pay App',
       theme: ThemeData(
@@ -29,6 +26,8 @@ class MyApp extends StatelessWidget {
         Routes.registrationScreen: (context) => RegistrationScreen(),
         Routes.loginScreen: (context) => const LoginScreen(),
         Routes.homescreen: (context) => const HomeScreen(),
+        Routes.scanScreen: (context) => const ScanScreen(),
+        Routes.qrscannerScreen: (context) => const QrscannerScreen(),
       },
     );
   }

@@ -9,4 +9,6 @@ class Routes {
       "/registration_firstScreen/registration_secondScreen/registration_password_screen/registration_user_detail_screen";
   static const String loginScreen = "/login";
   static const String homescreen = "/homescreen";
+  static const String scanScreen = "/homescreen/scan";
+  static const String qrscannerScreen = "/homescreen/scan/qrscannerScreen";
 }
