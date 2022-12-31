@@ -11,4 +11,8 @@ class Routes {
   static const String homescreen = "/homescreen";
   static const String scanScreen = "/homescreen/scan";
   static const String qrscannerScreen = "/homescreen/scan/qrscannerScreen";
+  static const String qrcaptureScreen =
+      "/homescreen/scan/qrscannerScreen/qrcaptureScreen";
+  static const String qrconfirmScreen =
+      "/homescreen/scan/qrscannerScreen/qrcaptureScreen/qrconfirmScreen";
 }

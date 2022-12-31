@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:scan_and_pay/config/routes.dart';
 import 'package:scan_and_pay/utils/image_constants/image_constants.dart';
 
 class QrscannerScreen extends StatelessWidget {
@@ -53,7 +54,10 @@ class QrscannerScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Image.asset(ImageConstants.scan_white),
+            GestureDetector(
+              child: Image.asset(ImageConstants.scan_white),
+              onTap: () => Navigator.pushNamed(context, Routes.qrcaptureScreen),
+            ),
             const Gap(24),
           ],
         ),

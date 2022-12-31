@@ -28,6 +28,8 @@ class MyApp extends StatelessWidget {
         Routes.homescreen: (context) => const HomeScreen(),
         Routes.scanScreen: (context) => const ScanScreen(),
         Routes.qrscannerScreen: (context) => const QrscannerScreen(),
+        Routes.qrcaptureScreen: (context) => const QrcaptureScreen(),
+        Routes.qrconfirmScreen: (context) => const QrconfirmScreen(),
       },
     );
   }

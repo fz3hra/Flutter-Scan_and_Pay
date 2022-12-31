@@ -11,4 +11,5 @@ class ImageConstants {
   static const String qrcodeBackground = "assets/scan/qrcode_background.png";
   static const String qrCode = "assets/scan/qr-code.png";
   static const String scan_white = "assets/scan/scan_white.png";
+  static const String store = "assets/scan/storefront.png";
 }

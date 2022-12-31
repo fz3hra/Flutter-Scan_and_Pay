@@ -9,4 +9,6 @@ export 'registration_screen/registration_second_screen.dart';
 export 'registration_screen/registration_user_detail_screen.dart';
 export 'scan_screen/scan_screen.dart';
 export 'scan_screen/qrscanner_screen/qrscanner_screen.dart';
+export 'scan_screen/qrcapture_screen/qrcapture_screen.dart';
+export 'scan_screen/qrconfirm_screen/qrconfirm_screen.dart';
 export 'splash_screen/splash_screen.dart';
