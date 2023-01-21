@@ -2,15 +2,11 @@
 
 A new Flutter project.
 
-## Getting Started
+## Project Overview:
 
-This project is a starting point for a Flutter application.
+Splash Screen:
+Uploading Simulator Screen Recording - iPhone 14 Pro Max - 2023-01-21 at 05.09.14.mp4…
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="865" alt="Screenshot 2023-01-21 at 05 15 28" src="https://user-images.githubusercontent.com/74302462/213831612-e669a037-31dd-4972-8a2f-786693ecff4b.png">
+<img width="1019" alt="Screenshot 2023-01-21 at 05 15 36" src="https://user-images.githubusercontent.com/74302462/213831614-0e2b39ac-4d7b-406f-8169-6a9cb0bf1579.png">
+<img width="617" alt="Screenshot 2023-01-21 at 05 15 49" src="https://user-images.githubusercontent.com/74302462/213831615-c91da445-75a0-4574-a285-7a0345904a8b.png">
